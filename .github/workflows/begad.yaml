@@ -1,4 +1,4 @@
-name: build-workflow_Ahmed Walid
+name: build-workflow-begad
 on:
   workflow_dispatch:
     inputs:
@@ -33,4 +33,4 @@ jobs:
       - name: Build and deploy to development
         run: |
           echo "Building and deploying to development environment"
-          # Add your build and deployment commands here
+            
