@@ -16,8 +16,13 @@ def divide(a, b):
     return a / b
 
 
+def power(a, b):
+    return a ** b
+
+
 if __name__ == "__main__":
     print(f"Addition: {add(10, 5)}")
     print(f"Subtraction: {subtract(10, 5)}")
     print(f"Multiplication: {multiply(10, 5)}")
     print(f"Division: {divide(10, 5)}")
+    print(f"Power: {power(2, 3)}")
