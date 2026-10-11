@@ -21,7 +21,10 @@ jobs:
 
       - name: Build and deploy to production
         run: |
-          echo "Building and deploying to production environment "
+          echo "Building and deploying to production environment
+          touch /tmp/deploy.log
+          echo 'Deployment to production completed successfully' >> /tmp/deploy.log
+          ls -l /tmp/deploy.logs
           # Add your build and deployment commands here
   dev-job:
     runs-on: ubuntu-latest
